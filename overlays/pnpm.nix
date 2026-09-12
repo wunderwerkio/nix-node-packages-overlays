@@ -1,6 +1,6 @@
 final: prev: let
-  version = "9.15.2";
-  sha256 = "sha256-AiMJuzE1kUK2W/qIngQG0u69Ws//ykfmlErPKdnWpms=";
+  version = "12.4.1";
+  sha256 = "sha256-YnYpjpr1dren9ekES/r74meCCSUM0QsXBepdOqZNSII=";
   lib = import ../lib {pkgs = prev;};
 in
   lib.overlayNodePackages {
